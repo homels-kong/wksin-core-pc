@@ -5,7 +5,7 @@
 module.exports = {
    webpackBase: {
        entry: {
-           index: ['webpack-hot-middleware/client?path=/__webpack_hmr&timeout=10000&reload=true', './client/entries/index/app.js']
+           index: ['./client/entries/index/app.js']
        }
    },
    webpackPlugin: {
