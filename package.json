@@ -1,7 +1,7 @@
 {
-  "name": "wksin-core-pc",
+  "name": "wksin-project",
   "version": "1.0.0",
-  "description": "wksin框架pc核心模版",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/homels-kong/wksin-core-pc.git"
   },
-  "author": "362381574@qq.com",
+  "author": "wukong",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/homels-kong/wksin-core-pc/issues"
   },
-  "homepage": "https://github.com/homels-kong/wksin-core-pc#readme"
+  "homepage": "https://github.com/homels-kong/wksin-core-pc#readme",
+  "email": "wukong@meituan.com",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  }
 }
