@@ -1,28 +1,28 @@
 {
-  "name": "wksin-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cross-env NODE_ENV=production wksin build",
-    "start": "cross-env NODE_ENV=development wksin start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/homels-kong/wksin-core-pc.git"
-  },
-  "author": "wukong",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/homels-kong/wksin-core-pc/issues"
-  },
-  "homepage": "https://github.com/homels-kong/wksin-core-pc#readme",
-  "email": "wukong@meituan.com",
-  "dependencies": {
-    "cross-env": "^5.2.0",
-    "vue": "^2.5.16",
-    "vue-router": "^3.0.1",
-    "webpack-hot-middleware": "^2.22.3"
-  }
+    "name": "wksin-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "cross-env NODE_ENV=production wksin build",
+        "start": "cross-env NODE_ENV=development wksin start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/homels-kong/wksin-core-pc.git"
+    },
+    "author": "wukong",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/homels-kong/wksin-core-pc/issues"
+    },
+    "homepage": "https://github.com/homels-kong/wksin-core-pc#readme",
+    "email": "wukong@meituan.com",
+    "dependencies": {
+        "cross-env": "^5.2.0",
+        "vue": "^2.5.16",
+        "vue-router": "^3.0.1",
+        "webpack-hot-middleware": "^2.22.3"
+    }
 }

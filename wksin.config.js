@@ -3,17 +3,21 @@
  */
 
 module.exports = {
-   webpackBase: {
+   base: {
        entry: {
            index: ['./client/entries/index/app.js']
        }
    },
-   webpackPlugin: {
+   plugin: {
        /**
         * 模版路径
         */
        templatePath: [
           './client/template/index.ejs'
        ]
-   }
+   },
+   /**
+    * 是否开启语法检查
+    */
+   eslint: false
 }
