@@ -20,6 +20,9 @@
     "homepage": "https://github.com/homels-kong/wksin-core-pc#readme",
     "email": "wukong@meituan.com",
     "dependencies": {
+        "babel-preset-es2015": "^6.24.1",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-stage-2": "^6.24.1",
         "cross-env": "^5.2.0",
         "vue": "^2.5.16",
         "vue-router": "^3.0.1",

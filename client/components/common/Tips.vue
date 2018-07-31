@@ -1,14 +1,12 @@
 <template>
-    <page-container :pageConfig='pageConfig'></page-container>
+   <div class="home-header">欢迎使用 wksin 框架</div>
 </template>
 <script>
 export default {
     name: 'home',
     data () {
         return {
-            pageConfig: {
-                uniqueId: 'tips'
-            }
+            pageConfig: {}
         }
     }
 }
@@ -24,5 +22,3 @@ export default {
         font-weight: lighter;
     }
 </style>
-
-
