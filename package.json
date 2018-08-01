@@ -24,7 +24,7 @@
         "babel-plugin-transform-runtime": "^6.23.0",
         "babel-preset-stage-2": "^6.24.1",
         "cross-env": "^5.2.0",
-        "vue": "^2.5.16",
+        "vue": "^2.5.9",
         "vue-router": "^3.0.1",
         "webpack-hot-middleware": "^2.22.3"
     }

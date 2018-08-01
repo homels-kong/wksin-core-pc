@@ -15,14 +15,6 @@ export default {
 </script>
 
 <style scoped>
-    .home-header {
-        height: 100px;
-        line-height: 100px;
-        text-align: center;
-        color: white;
-        font-size: 25px;
-        font-weight: lighter;
-    }
 </style>
 
 
