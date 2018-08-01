@@ -11,11 +11,8 @@ export default {
             pageConfig: 'pageConfig'
         })
     },
-    async asyncData ({store, route}) {
+    async asyncData ({ store, route }) {
         store.dispatch('initPage')
-    },
-    mounted () {
-        this.$store.dispatch('initPage')
     }
 }
 </script>

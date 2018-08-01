@@ -45,12 +45,12 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-  $bg-clor: #E6A23C;
+  $bg-clor: white;
   .process {
     position: fixed;
     height: 3px;
     background: $bg-clor;
-    top: 60px;
+    top: 0px;
     opacity: 1;
     transition: width .2s, opacity .4s
   }
