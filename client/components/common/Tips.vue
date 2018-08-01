@@ -4,12 +4,7 @@
 </template>
 <script>
 export default {
-    name: 'home',
-    data () {
-        return {
-            pageConfig: {}
-        }
-    }
+    name: 'home'
 }
 </script>
 

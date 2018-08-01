@@ -2,14 +2,20 @@
     <page-container :pageConfig='pageConfig'></page-container>
 </template>
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
     name: 'home',
-    data () {
-        return {
-            pageConfig: {
-                uniqueId: 'tips'
-            }
-        }
+    computed: {
+        ...mapGetters({
+            pageConfig: 'pageConfig'
+        })
+    },
+    async asyncData ({store, route}) {
+        store.dispatch('initPage')
+    },
+    mounted () {
+        this.$store.dispatch('initPage')
     }
 }
 </script>
