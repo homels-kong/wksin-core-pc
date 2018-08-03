@@ -1,5 +1,6 @@
 <template>
-   <div class="home-header">欢迎使用 wksin 框架
+   <div class="home-header">
+      <span>欢迎使用 wksin 框架</span>
    </div>
 </template>
 <script>

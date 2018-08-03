@@ -24,6 +24,7 @@
         "babel-preset-es2015": "^6.24.1",
         "babel-preset-stage-2": "^6.24.1",
         "cross-env": "^5.2.0",
+        "element-ui": "^2.4.5",
         "vue": "^2.5.9",
         "vue-router": "^3.0.1",
         "vuex": "^3.0.1",

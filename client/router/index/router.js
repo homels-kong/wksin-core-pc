@@ -1,7 +1,7 @@
 /**
  * 页面路由
  */
-import Home from '../../components/index/Home.vue';
+let Home = resolve => require(['../../components/index/Home.vue'], resolve)
 
 export default [{
     path: '/',

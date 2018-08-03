@@ -2,10 +2,14 @@
  * 需要使用的组件
  */
 import tips from './Tips.vue'
+import table from './Table.vue'
+import container from './Container.vue'
 
 /**
  * 暴露出去的组件
  */
 module.exports = {
-    tips: tips
+    tips: tips,
+    table: table,
+    container: container
 }

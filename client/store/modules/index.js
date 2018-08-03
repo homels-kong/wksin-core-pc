@@ -23,7 +23,15 @@ const mutations = {
 const actions = {
     async initPage({commit}, params) {
         let pageConfig =  {
-            uniqueId: 'tips'
+            uniqueId: 'container',
+            children: [
+                {
+                    uniqueId: 'tips',
+                },
+                {
+                    uniqueId: 'table',
+                }
+            ]
         };
         commit(SET_INDEX_CONFIG, pageConfig)
     }

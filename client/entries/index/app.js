@@ -5,7 +5,11 @@ import Vue from 'vue';
 import router from 'client/router';
 import store from 'client/store'
 import App from './App.vue';
+import 'element-ui/lib/theme-chalk/index.css'
+import ElementUI from 'element-ui'
 import ProcessBar from 'client/components/layout/ProcessBar.vue'
+
+Vue.use(ElementUI)
 
 /**
  * 页面渲染容器
