@@ -1,4 +1,3 @@
-/* eslint-disable */
 /**
  * vuex按需加载封装
  */

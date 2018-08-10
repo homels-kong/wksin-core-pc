@@ -4,6 +4,7 @@
 import tips from './Tips.vue'
 import table from './Table.vue'
 import container from './Container.vue'
+import detail from './Detail.vue'
 
 /**
  * 暴露出去的组件
@@ -11,5 +12,6 @@ import container from './Container.vue'
 module.exports = {
     tips: tips,
     table: table,
-    container: container
+    container: container,
+    detail: detail
 }

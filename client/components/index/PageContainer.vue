@@ -12,7 +12,17 @@ export default {
         })
     },
     async asyncData ({ store, route }) {
-        store.dispatch('initPage')
+        let page = route.path;
+        
+        if (page && page !== '/') {
+            page = page.replace(/^\//, '').replace(/\//g, '-');
+        }
+        if (page === '/') {
+            page = 'home'
+        }
+        store.dispatch('initPage',{ page })
+    },
+    mounted () {
     }
 }
 </script>

@@ -22,17 +22,13 @@ const mutations = {
 
 const actions = {
     async initPage({commit}, params) {
-        let pageConfig =  {
-            uniqueId: 'container',
-            children: [
-                {
-                    uniqueId: 'tips',
-                },
-                {
-                    uniqueId: 'table',
-                }
-            ]
-        };
+        let pageConfig = {};
+        try {
+            pageConfig = require(`client/config/page/${params.page}.js`);
+        } catch(e) {
+            console.error('请确定是否存在该页面的配置文件');
+        }
+        
         commit(SET_INDEX_CONFIG, pageConfig)
     }
 }

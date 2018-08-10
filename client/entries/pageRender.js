@@ -8,8 +8,10 @@ import ComponentsLib from '../components/common/ComponentsLib'
  * props {object} pageConfig {
  *   uniqueId: 组件唯一id,
  *   children: 子组件,
- *   attrs: 组件属性  文章：https://cn.vuejs.org/v2/guide/render-function.html
+ *   attrs: 组件属性  
  * }
+ * 
+ * article：https://cn.vuejs.org/v2/guide/render-function.html
  */
 Vue.component('page-container', {
   render: function (createElement) {

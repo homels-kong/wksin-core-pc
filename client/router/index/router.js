@@ -1,12 +1,15 @@
 /**
  * 页面路由
  */
-let Home = resolve => require(['../../components/index/Home.vue'], resolve)
+let PageContainer = resolve => require(['../../components/index/PageContainer.vue'], resolve);
+let routes = require('client/config/route.js');
 
-export default [{
-    path: '/',
-    component: Home
-}, {
-    path: '/home',
-    component: Home
-}]
+routes = routes || [];
+/**
+ * 动态注入根组件
+ */
+routes.forEach(item => {
+    item.component = PageContainer
+})
+
+export default routes

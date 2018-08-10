@@ -58,15 +58,14 @@ function excuteAsyncData() {
     
         let diffed = false;
         let activated = matched.filter((c, i) => diffed || (diffed = (prevMatched[i] !== c)));
-        console.log('456')
-        if (!activated.length) {
-            return next();
-        }
-        
-        loading.start()
 
+        // if (!activated.length) {
+        //     return next();
+        // }
+        loading.start()
+       
         Promise.all(
-            activated
+            matched
             .filter(c => c.asyncData && (!c.asyncDataFetched || !to.meta.keepAlive))
             .map(async c => {
                 await c.asyncData({store, route: to});
